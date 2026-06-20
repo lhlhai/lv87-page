@@ -1,40 +1,42 @@
 import { useState } from 'react';
 import { ChevronDown } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 interface AccordionItem {
   id: string;
-  title: string;
-  content: string;
+  titleKey: string;
+  contentKey: string;
 }
 
 export default function DSBAccordion() {
+  const { t } = useTranslation();
   const [openItems, setOpenItems] = useState<string[]>([]);
 
   const items: AccordionItem[] = [
     {
       id: 'registration',
-      title: 'Đăng ký & Duyệt',
-      content: 'Hạn chót đăng ký trước Reset thứ 4. Ưu tiên thành viên lực chiến cao.',
+      titleKey: 'dsb.registration.title',
+      contentKey: 'dsb.registration.desc',
     },
     {
       id: 'absence-main',
-      title: 'Xử phạt vắng mặt (Đội hình chính)',
-      content: 'Lần 1: cấm 1 tuần. Lần 2: cấm 3 tuần. Lần 3: cấm vĩnh viễn.',
+      titleKey: 'dsb.penalty_main.title',
+      contentKey: 'dsb.penalty_main.desc',
     },
     {
       id: 'absence-reserve',
-      title: 'Xử phạt (Đội hình dự bị)',
-      content: 'Vắng mặt cấm 1 tuần (không cộng dồn).',
+      titleKey: 'dsb.penalty_sub.title',
+      contentKey: 'dsb.penalty_sub.desc',
     },
     {
       id: 'safety-points',
-      title: 'Điểm an toàn',
-      content: 'Đội hình chính cần đạt 700,000 điểm mỗi vòng (có thể thay đổi).',
+      titleKey: 'dsb.safety_points.title',
+      contentKey: 'dsb.safety_points.desc',
     },
     {
       id: 'sharing-spirit',
-      title: 'Tinh thần chia sẻ',
-      content: 'Khuyến khích nhường chỗ cho dự bị khi đã đạt điểm và thế trận ổn định.',
+      titleKey: 'dsb.spirit.title',
+      contentKey: 'dsb.spirit.desc',
     },
   ];
 
@@ -48,7 +50,7 @@ export default function DSBAccordion() {
     <section id="dsb" className="py-16 md:py-24 bg-background">
       <div className="container">
         <h2 className="text-3xl md:text-4xl font-bold text-yellow-400 font-orbitron mb-12 text-center">
-          Quy Định Bão Sa Mạc
+          {t('dsb.title')}
         </h2>
 
         <div className="max-w-3xl mx-auto space-y-4">
@@ -66,7 +68,7 @@ export default function DSBAccordion() {
                 className="w-full flex items-center justify-between p-6 md:p-8 hover:bg-gray-800 transition-colors duration-200 group"
               >
                 <h3 className="text-yellow-400 font-orbitron font-semibold text-base md:text-lg text-left">
-                  {item.title}
+                  {t(item.titleKey)}
                 </h3>
                 <ChevronDown
                   className={`w-5 h-5 text-cyan-400 transition-transform duration-300 flex-shrink-0 ml-4 group-hover:text-yellow-400 ${
@@ -79,7 +81,7 @@ export default function DSBAccordion() {
               {openItems.includes(item.id) && (
                 <div className="px-6 md:px-8 pb-6 md:pb-8 border-t border-cyan-400/30 bg-gray-950 animate-in fade-in duration-200">
                   <p className="text-gray-300 font-rajdhani text-sm md:text-base leading-relaxed">
-                    {item.content}
+                    {t(item.contentKey)}
                   </p>
                 </div>
               )}

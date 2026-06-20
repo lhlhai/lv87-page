@@ -1,0 +1,85 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "rules": "Quy định",
+    "dsb": "Bão sa mạc",
+    "team": "Đội hình"
+  },
+  "hero": {
+    "title": "LV87 VIE ALLIANCE",
+    "subtitle": "Tập hợp những chiến binh mạnh mẽ, tổ chức, và chuyên nghiệp",
+    "slogan": "\"Tận hưởng hành trình và niềm vui khi chơi game cùng nhau, thay vì chỉ tập trung vào đích đến.\"",
+    "warning": "Nghiêm cấm hành vi cướp tàu của người chơi khác và đánh cắp nhiệm vụ bí mật."
+  },
+  "stats": {
+    "daily_points": "Điểm/ngày",
+    "weekly_points": "Điểm/tuần",
+    "alliance_servers": "Các Server Liên Minh",
+    "server": "Server"
+  },
+  "rules": {
+    "title": "Quy Định Chung",
+    "points": {
+      "title": "Điểm số",
+      "desc": "Tối thiểu 7.2M/ngày hoặc 43.2M/tuần. Không đạt sẽ bị đưa xuống R1 và có thể bị loại."
+    },
+    "shield": {
+      "title": "Bật khiên",
+      "desc": "Thứ 7 hàng tuần, thành viên không tham chiến phải bật khiên. Nghiêm cấm trao đổi điểm với đối thủ."
+    },
+    "base": {
+      "title": "Sắp xếp căn cứ",
+      "desc": "Căn cứ phải gọn gàng trước khi Reset máy chủ Chủ Nhật."
+    },
+    "online": {
+      "title": "Online",
+      "desc": "Không online quá 1 ngày -> R1; nhiều ngày -> xem xét mời khỏi liên minh."
+    },
+    "attack": {
+      "title": "Tấn công",
+      "desc": "Chỉ được tấn công người không có liên minh. Cấm cướp xe tải/nhiệm vụ của cùng server nếu chưa được đồng ý."
+    }
+  },
+  "dsb": {
+    "title": "Quy Định Bão Sa Mạc",
+    "registration": {
+      "title": "Đăng ký & Duyệt",
+      "desc": "Hạn chót đăng ký trước Reset thứ 4. Ưu tiên thành viên lực chiến cao."
+    },
+    "penalty_main": {
+      "title": "Xử phạt vắng mặt (Đội hình chính)",
+      "desc": "Lần 1: cấm 1 tuần. Lần 2: cấm 3 tuần. Lần 3: cấm vĩnh viễn."
+    },
+    "penalty_sub": {
+      "title": "Xử phạt (Đội hình dự bị)",
+      "desc": "Vắng mặt cấm 1 tuần (không cộng dồn)."
+    },
+    "safety_points": {
+      "title": "Điểm an toàn",
+      "desc": "Đội hình chính cần đạt 700,000 điểm mỗi vòng (có thể thay đổi)."
+    },
+    "spirit": {
+      "title": "Tinh thần chia sẻ",
+      "desc": "Khuyến khích nhường chỗ cho dự bị khi đã đạt điểm và thế trận ổn định."
+    }
+  },
+  "team": {
+    "title": "Đội Hình",
+    "updated": "Cập nhật",
+    "update_link": "Cập nhật đội hình tại đây"
+  },
+  "banned": {
+    "title": "Danh Sách Bị Đình Chỉ",
+    "character": "Tên Nhân Vật",
+    "reason": "Lý Do",
+    "time": "Thời Gian",
+    "updating": "Đang cập nhật...",
+    "note": "Bảng danh sách sẽ được cập nhật thường xuyên"
+  },
+  "footer": {
+    "rights": "© 2026 LV87 VIE Alliance. Tất cả quyền được bảo lưu.",
+    "last_updated": "Cập nhật lần cuối",
+    "guide": "Hướng dẫn",
+    "built_with": "Được xây dựng với ❤️ cho cộng đồng LV87 VIE"
+  }
+}

@@ -1,12 +1,16 @@
+import { useTranslation } from 'react-i18next';
+
 export default function Stats() {
+  const { t } = useTranslation();
+
   const stats = [
     {
       value: '7.2M+',
-      label: 'Điểm/ngày',
+      label: t('stats.daily_points'),
     },
     {
       value: '43.2M',
-      label: 'Điểm/tuần',
+      label: t('stats.weekly_points'),
     },
   ];
 
@@ -41,7 +45,7 @@ export default function Stats() {
                boxShadow: '0 0 15px rgba(56, 189, 248, 0.2)',
              }}>
           <h3 className="text-yellow-400 font-orbitron text-lg md:text-xl mb-6">
-            Các Server Liên Minh
+            {t('stats.alliance_servers')}
           </h3>
           <div className="flex flex-wrap gap-3">
             {servers.map((server) => (
@@ -49,7 +53,7 @@ export default function Stats() {
                 key={server}
                 className="bg-cyan-400/20 border border-cyan-400 text-cyan-300 px-4 py-2 rounded-sm font-rajdhani text-sm hover:bg-cyan-400/30 transition-colors"
               >
-                Server {server}
+                {t('stats.server')} {server}
               </span>
             ))}
           </div>

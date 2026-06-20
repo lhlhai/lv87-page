@@ -1,6 +1,9 @@
 import { ImageIcon } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 export default function TeamSection() {
+  const { t } = useTranslation();
+
   const teams = [
     {
       name: 'TEAM A',
@@ -16,7 +19,7 @@ export default function TeamSection() {
     <section id="team" className="py-16 md:py-24 bg-background">
       <div className="container">
         <h2 className="text-3xl md:text-4xl font-bold text-yellow-400 font-orbitron mb-12 text-center">
-          Đội Hình
+          {t('team.title')}
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -34,7 +37,7 @@ export default function TeamSection() {
                   {team.name}
                 </h3>
                 <p className="text-gray-400 font-rajdhani text-sm">
-                  Cập nhật: {team.date}
+                  {t('team.updated')}: {team.date}
                 </p>
               </div>
 
@@ -43,7 +46,7 @@ export default function TeamSection() {
                 <div className="border-2 border-dashed border-cyan-400/50 rounded-lg p-12 flex flex-col items-center justify-center w-full h-full">
                   <ImageIcon className="w-12 h-12 text-cyan-400/50 mb-4" />
                   <p className="text-gray-400 font-rajdhani text-center text-sm">
-                    Cập nhật đội hình tại đây
+                    {t('team.update_link')}
                   </p>
                 </div>
               </div>

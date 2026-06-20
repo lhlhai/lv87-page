@@ -1,0 +1,85 @@
+{
+  "nav": {
+    "home": "首页",
+    "rules": "规则",
+    "dsb": "沙漠风暴",
+    "team": "阵容"
+  },
+  "hero": {
+    "title": "LV87 VIE 联盟",
+    "subtitle": "汇聚强大、有序且专业的战士",
+    "slogan": "“享受共同游戏的旅程和乐趣，而不仅仅是关注终点。”",
+    "warning": "严禁抢夺其他玩家的飞船或窃取秘密任务。"
+  },
+  "stats": {
+    "daily_points": "每日积分",
+    "weekly_points": "每周积分",
+    "alliance_servers": "联盟服务器",
+    "server": "服务器"
+  },
+  "rules": {
+    "title": "通用规则",
+    "points": {
+      "title": "积分",
+      "desc": "每日最低 7.2M 或每周 43.2M。未达标者将降至 R1，并可能被移出联盟。"
+    },
+    "shield": {
+      "title": "开启护盾",
+      "desc": "每周六，非参战成员必须开启护盾。严禁与对手交换积分。"
+    },
+    "base": {
+      "title": "基地布局",
+      "desc": "基地必须在周日服务器重置前保持整洁。"
+    },
+    "online": {
+      "title": "在线状态",
+      "desc": "离线超过 1 天 -> R1；多日离线 -> 考虑移出联盟。"
+    },
+    "attack": {
+      "title": "攻击",
+      "desc": "仅限攻击无联盟玩家。未经许可，严禁抢夺同服务器玩家的卡车/任务。"
+    }
+  },
+  "dsb": {
+    "title": "沙漠风暴规则",
+    "registration": {
+      "title": "报名与审核",
+      "desc": "报名截止时间为周三重置前。高战力成员优先。"
+    },
+    "penalty_main": {
+      "title": "缺勤处罚（主力队）",
+      "desc": "第一次：禁赛 1 周。第二次：禁赛 3 周。第三次：永久禁赛。"
+    },
+    "penalty_sub": {
+      "title": "处罚（预备队）",
+      "desc": "缺勤禁赛 1 周（不累计）。"
+    },
+    "safety_points": {
+      "title": "安全积分",
+      "desc": "主力队每轮需达到 700,000 分（可能会调整）。"
+    },
+    "spirit": {
+      "title": "分享精神",
+      "desc": "鼓励在达到积分且局势稳定后，将名额让给预备队成员。"
+    }
+  },
+  "team": {
+    "title": "阵容",
+    "updated": "更新于",
+    "update_link": "在此更新阵容"
+  },
+  "banned": {
+    "title": "停赛名单",
+    "character": "角色名称",
+    "reason": "原因",
+    "time": "时长",
+    "updating": "更新中...",
+    "note": "名单将定期更新"
+  },
+  "footer": {
+    "rights": "© 2026 LV87 VIE 联盟。保留所有权利。",
+    "last_updated": "最后更新",
+    "guide": "指南",
+    "built_with": "为 LV87 VIE 社区用心 ❤️ 打造"
+  }
+}

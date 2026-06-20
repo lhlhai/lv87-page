@@ -1,9 +1,13 @@
+import { useTranslation } from 'react-i18next';
+
 export default function BannedList() {
+  const { t } = useTranslation();
+
   const bannedPlayers = [
     // Placeholder - will be updated by admin
     {
       id: 1,
-      character: 'Đang cập nhật...',
+      character: t('banned.updating'),
       reason: '-',
       time: '-',
     },
@@ -13,7 +17,7 @@ export default function BannedList() {
     <section id="banned" className="py-16 md:py-24 bg-background">
       <div className="container">
         <h2 className="text-3xl md:text-4xl font-bold text-yellow-400 font-orbitron mb-12 text-center">
-          Danh Sách Bị Đình Chỉ
+          {t('banned.title')}
         </h2>
 
         <div className="overflow-x-auto">
@@ -24,13 +28,13 @@ export default function BannedList() {
                   STT
                 </th>
                 <th className="border border-cyan-400/30 px-4 py-3 text-left text-yellow-400 font-orbitron font-semibold text-sm md:text-base">
-                  Tên Nhân Vật
+                  {t('banned.character')}
                 </th>
                 <th className="border border-cyan-400/30 px-4 py-3 text-left text-yellow-400 font-orbitron font-semibold text-sm md:text-base">
-                  Lý Do
+                  {t('banned.reason')}
                 </th>
                 <th className="border border-cyan-400/30 px-4 py-3 text-left text-yellow-400 font-orbitron font-semibold text-sm md:text-base">
-                  Thời Gian
+                  {t('banned.time')}
                 </th>
               </tr>
             </thead>
@@ -61,7 +65,7 @@ export default function BannedList() {
         </div>
 
         <p className="text-center text-gray-400 font-rajdhani text-sm mt-6">
-          Bảng danh sách sẽ được cập nhật thường xuyên
+          {t('banned.note')}
         </p>
       </div>
     </section>

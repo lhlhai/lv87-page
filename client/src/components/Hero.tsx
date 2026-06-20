@@ -1,6 +1,9 @@
 import { Quote } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 export default function Hero() {
+  const { t } = useTranslation();
+
   return (
     <section id="home" className="pt-24 md:pt-32 pb-16 md:pb-24 bg-background">
       <div className="container">
@@ -10,17 +13,17 @@ export default function Hero() {
               style={{
                 textShadow: '0 0 20px rgba(245, 200, 66, 0.5), 0 0 40px rgba(245, 200, 66, 0.2)'
               }}>
-            LV87 VIE ALLIANCE
+            {t('hero.title')}
           </h1>
           <p className="text-lg md:text-xl text-gray-300 font-rajdhani max-w-2xl">
-            Tập hợp những chiến binh mạnh mẽ, tổ chức, và chuyên nghiệp
+            {t('hero.subtitle')}
           </p>
         </div>
 
         {/* Slogan */}
         <div className="mb-12 md:mb-16">
           <p className="text-base md:text-lg text-gray-400 font-rajdhani max-w-3xl leading-relaxed italic">
-            "Tận hưởng hành trình và niềm vui khi chơi game cùng nhau, thay vì chỉ tập trung vào dích đến."
+            {t('hero.slogan')}
           </p>
         </div>
 
@@ -30,7 +33,7 @@ export default function Hero() {
             <Quote className="w-8 h-8" />
           </div>
           <p className="text-yellow-400 font-rajdhani text-base md:text-lg pl-6 font-semibold">
-            Nghiêm cấm hành vi cướp tàu của người chơi khác và đánh cắp nhiệm vụ bí mật.
+            {t('hero.warning')}
           </p>
         </div>
       </div>

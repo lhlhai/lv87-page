@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Globe } from 'lucide-react';
 import { useScrollSpy } from '@/hooks/useScrollSpy';
+import { useTranslation } from 'react-i18next';
 
 interface NavbarProps {
   onNavigate?: (sectionId: string) => void;
@@ -8,15 +9,22 @@ interface NavbarProps {
 
 export default function Navbar({ onNavigate }: NavbarProps) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isLangOpen, setIsLangOpen] = useState(false);
+  const { t, i18n } = useTranslation();
   const sectionIds = ['home', 'rules', 'dsb', 'team', 'banned'];
   const activeSection = useScrollSpy(sectionIds, 100);
 
   const navLinks = [
-    { label: 'Trang chủ', id: 'home' },
-    { label: 'Quy định', id: 'rules' },
-    { label: 'Bão sa mạc', id: 'dsb' },
-    { label: 'Đội hình', id: 'team' },
-    { label: 'Banned List', id: 'banned' },
+    { label: t('nav.home'), id: 'home' },
+    { label: t('nav.rules'), id: 'rules' },
+    { label: t('nav.dsb'), id: 'dsb' },
+    { label: t('nav.team'), id: 'team' },
+  ];
+
+  const languages = [
+    { code: 'en', name: 'English' },
+    { code: 'vi', name: 'Tiếng Việt' },
+    { code: 'zh', name: '中文' },
   ];
 
   const handleNavClick = (id: string) => {
@@ -26,6 +34,11 @@ export default function Navbar({ onNavigate }: NavbarProps) {
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
+  };
+
+  const handleLanguageChange = (code: string) => {
+    i18n.changeLanguage(code);
+    setIsLangOpen(false);
   };
 
   return (
@@ -61,18 +74,53 @@ export default function Navbar({ onNavigate }: NavbarProps) {
           })}
         </div>
 
-        {/* Mobile Hamburger */}
-        <button
-          className="md:hidden text-yellow-400 hover:text-cyan-400 transition-colors"
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-          aria-label="Toggle menu"
-        >
-          {isMenuOpen ? (
-            <X className="w-6 h-6" />
-          ) : (
-            <Menu className="w-6 h-6" />
-          )}
-        </button>
+        {/* Right Section: Language Selector & Mobile Menu */}
+        <div className="flex items-center gap-4">
+          {/* Language Selector */}
+          <div className="relative">
+            <button
+              onClick={() => setIsLangOpen(!isLangOpen)}
+              className="flex items-center gap-2 px-3 py-2 rounded-sm bg-gray-900 border border-cyan-400 text-cyan-300 hover:bg-cyan-400/10 transition-colors font-rajdhani text-sm"
+            >
+              <Globe className="w-4 h-4" />
+              <span className="hidden sm:inline uppercase text-xs font-semibold">
+                {i18n.language}
+              </span>
+            </button>
+
+            {/* Language Dropdown */}
+            {isLangOpen && (
+              <div className="absolute right-0 mt-2 w-40 bg-gray-900 border border-cyan-400 rounded-sm shadow-lg shadow-cyan-400/20 z-50">
+                {languages.map((lang) => (
+                  <button
+                    key={lang.code}
+                    onClick={() => handleLanguageChange(lang.code)}
+                    className={`w-full text-left px-4 py-2 font-rajdhani text-sm transition-colors ${
+                      i18n.language === lang.code
+                        ? 'bg-cyan-400/20 text-yellow-400'
+                        : 'text-gray-300 hover:bg-gray-800 hover:text-cyan-300'
+                    }`}
+                  >
+                    {lang.name}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+
+          {/* Mobile Hamburger */}
+          <button
+            className="md:hidden text-yellow-400 hover:text-cyan-400 transition-colors"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            aria-label="Toggle menu"
+          >
+            {isMenuOpen ? (
+              <X className="w-6 h-6" />
+            ) : (
+              <Menu className="w-6 h-6" />
+            )}
+          </button>
+        </div>
       </div>
 
       {/* Mobile Menu */}
