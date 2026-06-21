@@ -1,85 +1,87 @@
 {
   "nav": {
-    "home": "Home",
-    "rules": "Rules",
+    "home": "Demo Site",
+    "rules": "Sample Rules",
     "dsb": "Desert Storm",
-    "team": "Squad"
+    "team": "Squads",
+    "contact": "Order Website"
   },
   "hero": {
-    "title": "LV87 VIE ALLIANCE",
-    "subtitle": "Gathering strong, organized, and professional warriors",
-    "slogan": "\"Enjoy the journey and the fun of playing together, instead of just focusing on the destination.\"",
-    "warning": "Strictly forbidden to hijack other players' ships or steal secret missions."
+    "title": "LAST WAR ALLIANCE PAGE",
+    "subtitle": "Professional website templates exclusively for Last War: Survival Game alliances",
+    "slogan": "\"Build a professional, organized, and powerful image for your alliance.\"",
+    "warning": "This is a demo of multi-language support and alliance management features. Want a site like this for your alliance?",
+    "cta": "Contact now for a quote"
   },
   "stats": {
-    "daily_points": "Points/day",
-    "weekly_points": "Points/week",
-    "alliance_servers": "Alliance Servers",
+    "daily_points": "Daily Goal",
+    "weekly_points": "Weekly Goal",
+    "alliance_servers": "Server Network",
     "server": "Server"
   },
   "rules": {
-    "title": "General Rules",
+    "title": "Alliance Rules (Sample)",
     "points": {
-      "title": "Score",
-      "desc": "Minimum 7.2M/day or 43.2M/week. Failure to achieve will result in demotion to R1 and potential removal."
+      "title": "Scoring",
+      "desc": "Automated score management system, helping members easily track daily/weekly goals."
     },
     "shield": {
-      "title": "Shield Up",
-      "desc": "Every Saturday, non-combatant members must activate shields. Point trading with opponents is strictly prohibited."
+      "title": "Base Protection",
+      "desc": "Clear shield-up rules for events like Enemy Buster to prevent military losses."
     },
     "base": {
       "title": "Base Layout",
-      "desc": "Bases must be organized before the Sunday server reset."
+      "desc": "Guide members on optimal base positioning for cross-server battles."
     },
     "online": {
-      "title": "Online",
-      "desc": "Offline for more than 1 day -> R1; multiple days -> considered for removal from the alliance."
+      "title": "Activity",
+      "desc": "Track member online status to ensure forces are always ready for battle."
     },
     "attack": {
-      "title": "Attack",
-      "desc": "Only attack players without an alliance. Do not hijack trucks/missions from the same server without consent."
+      "title": "Tactics",
+      "desc": "Rules for attacking, truck hijacking, and coordination in secret missions."
     }
   },
   "dsb": {
-    "title": "Desert Storm Rules",
+    "title": "Desert Storm Management (Sample)",
     "registration": {
       "title": "Registration & Approval",
-      "desc": "Registration deadline before Wednesday reset. Priority given to high power members."
+      "desc": "Intuitive registration system for Desert Storm, prioritized by power and activity."
     },
     "penalty_main": {
-      "title": "Absence Penalty (Main Squad)",
-      "desc": "1st time: 1-week ban. 2nd time: 3-week ban. 3rd time: Permanent ban."
+      "title": "Main Squad Penalties",
+      "desc": "Transparent penalty rules for unexcused absences during battles."
     },
     "penalty_sub": {
-      "title": "Absence Penalty (Sub Squad)",
-      "desc": "Absence results in a 1-week ban (non-cumulative)."
+      "title": "Reserve Mode",
+      "desc": "Flexible reserve rotation mechanism, allowing all members to grow together."
     },
     "safety_points": {
       "title": "Safety Points",
-      "desc": "Main squad must reach 700,000 points per round (subject to change)."
+      "desc": "Set safety point milestones for each round to secure alliance rankings."
     },
     "spirit": {
-      "title": "Sharing Spirit",
-      "desc": "Encouraged to give spots to substitutes once points are reached and the situation is stable."
+      "title": "Team Spirit",
+      "desc": "Encourage experience sharing and mutual support throughout the game journey."
     }
   },
   "team": {
-    "title": "Squad",
-    "updated": "Updated",
-    "update_link": "Update squad here"
+    "title": "Squad Management",
+    "updated": "Updated at",
+    "update_link": "View sample squads"
   },
   "banned": {
-    "title": "Suspended List",
+    "title": "Blacklist",
     "character": "Character Name",
     "reason": "Reason",
     "time": "Duration",
-    "updating": "Updating...",
-    "note": "The list will be updated regularly"
+    "updating": "Sample data updating...",
+    "note": "System to publicly list violations of alliance rules"
   },
   "footer": {
-    "rights": "© 2026 LV87 VIE Alliance. All rights reserved.",
+    "rights": "© 2026 Last War Alliance Template. Developed by LHLHai.",
     "last_updated": "Last updated",
-    "guide": "Guide",
-    "built_with": "Built with ❤️ for the LV87 VIE community"
+    "guide": "Design Consultation",
+    "built_with": "Want this website? Contact us for support ❤️"
   }
 }

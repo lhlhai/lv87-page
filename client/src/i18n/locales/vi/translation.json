@@ -1,85 +1,87 @@
 {
   "nav": {
-    "home": "Trang chủ",
-    "rules": "Quy định",
+    "home": "Mẫu Website",
+    "rules": "Quy định mẫu",
     "dsb": "Bão sa mạc",
-    "team": "Đội hình"
+    "team": "Đội hình",
+    "contact": "Liên hệ làm web"
   },
   "hero": {
-    "title": "LV87 VIE ALLIANCE",
-    "subtitle": "Tập hợp những chiến binh mạnh mẽ, tổ chức, và chuyên nghiệp",
-    "slogan": "\"Tận hưởng hành trình và niềm vui khi chơi game cùng nhau, thay vì chỉ tập trung vào đích đến.\"",
-    "warning": "Nghiêm cấm hành vi cướp tàu của người chơi khác và đánh cắp nhiệm vụ bí mật."
+    "title": "LAST WAR ALLIANCE PAGE",
+    "subtitle": "Mẫu website chuyên nghiệp dành riêng cho các liên minh trong Last War: Survival Game",
+    "slogan": "\"Xây dựng hình ảnh liên minh chuyên nghiệp, tổ chức và hùng mạnh hơn.\"",
+    "warning": "Đây là bản demo tính năng đa ngôn ngữ và quản lý liên minh. Bạn có muốn sở hữu một trang web như thế này cho liên minh của mình?",
+    "cta": "Liên hệ ngay để nhận báo giá"
   },
   "stats": {
-    "daily_points": "Điểm/ngày",
-    "weekly_points": "Điểm/tuần",
-    "alliance_servers": "Các Server Liên Minh",
-    "server": "Server"
+    "daily_points": "Chỉ tiêu ngày",
+    "weekly_points": "Chỉ tiêu tuần",
+    "alliance_servers": "Hệ thống Server",
+    "server": "Máy chủ"
   },
   "rules": {
-    "title": "Quy Định Chung",
+    "title": "Quy Định Liên Minh (Mẫu)",
     "points": {
       "title": "Điểm số",
-      "desc": "Tối thiểu 7.2M/ngày hoặc 43.2M/tuần. Không đạt sẽ bị đưa xuống R1 và có thể bị loại."
+      "desc": "Hệ thống quản lý điểm số tự động, giúp thành viên dễ dàng theo dõi chỉ tiêu hàng ngày/tuần."
     },
     "shield": {
-      "title": "Bật khiên",
-      "desc": "Thứ 7 hàng tuần, thành viên không tham chiến phải bật khiên. Nghiêm cấm trao đổi điểm với đối thủ."
+      "title": "Bảo vệ căn cứ",
+      "desc": "Quy định bật khiên rõ ràng cho các sự kiện như Enemy Buster để tránh tổn thất quân lực."
     },
     "base": {
       "title": "Sắp xếp căn cứ",
-      "desc": "Căn cứ phải gọn gàng trước khi Reset máy chủ Chủ Nhật."
+      "desc": "Hướng dẫn thành viên cách bố trí căn cứ tối ưu cho các trận chiến liên server."
     },
     "online": {
-      "title": "Online",
-      "desc": "Không online quá 1 ngày -> R1; nhiều ngày -> xem xét mời khỏi liên minh."
+      "title": "Hoạt động",
+      "desc": "Theo dõi trạng thái online của thành viên để đảm bảo lực lượng luôn sẵn sàng chiến đấu."
     },
     "attack": {
-      "title": "Tấn công",
-      "desc": "Chỉ được tấn công người không có liên minh. Cấm cướp xe tải/nhiệm vụ của cùng server nếu chưa được đồng ý."
+      "title": "Chiến thuật",
+      "desc": "Quy định về việc tấn công, cướp xe tải và phối hợp trong các nhiệm vụ bí mật."
     }
   },
   "dsb": {
-    "title": "Quy Định Bão Sa Mạc",
+    "title": "Quản Lý Bão Sa Mạc (Mẫu)",
     "registration": {
       "title": "Đăng ký & Duyệt",
-      "desc": "Hạn chót đăng ký trước Reset thứ 4. Ưu tiên thành viên lực chiến cao."
+      "desc": "Hệ thống đăng ký tham gia Bão Sa Mạc trực quan, ưu tiên theo lực chiến và độ tích cực."
     },
     "penalty_main": {
-      "title": "Xử phạt vắng mặt (Đội hình chính)",
-      "desc": "Lần 1: cấm 1 tuần. Lần 2: cấm 3 tuần. Lần 3: cấm vĩnh viễn."
+      "title": "Xử phạt Đội hình chính",
+      "desc": "Quy định xử phạt minh bạch cho các trường hợp vắng mặt không lý do trong trận chiến."
     },
     "penalty_sub": {
-      "title": "Xử phạt (Đội hình dự bị)",
-      "desc": "Vắng mặt cấm 1 tuần (không cộng dồn)."
+      "title": "Chế độ Dự bị",
+      "desc": "Cơ chế luân chuyển đội hình dự bị linh hoạt, tạo điều kiện cho mọi thành viên cùng phát triển."
     },
     "safety_points": {
       "title": "Điểm an toàn",
-      "desc": "Đội hình chính cần đạt 700,000 điểm mỗi vòng (có thể thay đổi)."
+      "desc": "Thiết lập mốc điểm an toàn cho mỗi vòng đấu để đảm bảo thứ hạng liên minh."
     },
     "spirit": {
-      "title": "Tinh thần chia sẻ",
-      "desc": "Khuyến khích nhường chỗ cho dự bị khi đã đạt điểm và thế trận ổn định."
+      "title": "Tinh thần đồng đội",
+      "desc": "Khuyến khích chia sẻ kinh nghiệm và hỗ trợ lẫn nhau trong suốt hành trình game."
     }
   },
   "team": {
-    "title": "Đội Hình",
-    "updated": "Cập nhật",
-    "update_link": "Cập nhật đội hình tại đây"
+    "title": "Quản Lý Đội Hình",
+    "updated": "Cập nhật lúc",
+    "update_link": "Xem chi tiết đội hình mẫu"
   },
   "banned": {
-    "title": "Danh Sách Bị Đình Chỉ",
+    "title": "Danh Sách Đen",
     "character": "Tên Nhân Vật",
     "reason": "Lý Do",
     "time": "Thời Gian",
-    "updating": "Đang cập nhật...",
-    "note": "Bảng danh sách sẽ được cập nhật thường xuyên"
+    "updating": "Dữ liệu mẫu đang cập nhật...",
+    "note": "Hệ thống giúp công khai các trường hợp vi phạm quy định liên minh"
   },
   "footer": {
-    "rights": "© 2026 LV87 VIE Alliance. Tất cả quyền được bảo lưu.",
+    "rights": "© 2026 Last War Alliance Template. Phát triển bởi LHLHai.",
     "last_updated": "Cập nhật lần cuối",
-    "guide": "Hướng dẫn",
-    "built_with": "Được xây dựng với ❤️ cho cộng đồng LV87 VIE"
+    "guide": "Tư vấn thiết kế",
+    "built_with": "Bạn muốn sở hữu website này? Liên hệ ngay để được hỗ trợ ❤️"
   }
 }

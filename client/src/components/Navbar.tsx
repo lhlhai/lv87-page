@@ -47,10 +47,10 @@ export default function Navbar({ onNavigate }: NavbarProps) {
         {/* Logo */}
         <div className="flex items-center gap-2">
           <div className="text-2xl md:text-3xl font-bold text-yellow-400 font-orbitron drop-shadow-lg shadow-yellow-400/50">
-            LV87 VIE
+            LW ALLIANCE
           </div>
-          <div className="text-xs md:text-sm text-gray-400 font-rajdhani">
-            Server 1732
+          <div className="text-xs md:text-sm text-cyan-400 font-rajdhani font-bold">
+            DEMO SITE
           </div>
         </div>
 

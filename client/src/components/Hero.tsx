@@ -27,14 +27,19 @@ export default function Hero() {
           </p>
         </div>
 
-        {/* Quote Highlight */}
+        {/* Quote Highlight / CTA */}
         <div className="relative bg-gray-900 border-l-4 border-yellow-400 p-6 md:p-8 rounded-sm shadow-lg shadow-yellow-400/10">
           <div className="absolute top-4 left-4 text-yellow-400/30">
             <Quote className="w-8 h-8" />
           </div>
-          <p className="text-yellow-400 font-rajdhani text-base md:text-lg pl-6 font-semibold">
-            {t('hero.warning')}
-          </p>
+          <div className="pl-6">
+            <p className="text-yellow-400 font-rajdhani text-base md:text-lg font-semibold mb-4">
+              {t('hero.warning')}
+            </p>
+            <button className="bg-yellow-400 hover:bg-yellow-500 text-black font-orbitron font-bold py-3 px-8 rounded-sm transition-all transform hover:scale-105 shadow-lg shadow-yellow-400/20">
+              {t('hero.cta')}
+            </button>
+          </div>
         </div>
       </div>
     </section>
