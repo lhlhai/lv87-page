@@ -15,7 +15,7 @@ export default function CBLHero() {
 
       <div className="hero-content">
         <div className="hero-text">
-          <h1 className="hero-title">Crown Born Legend</h1>
+          <h1 className="hero-title">Crown Born Legend - #1732</h1>
           <p className="hero-slogan">⚔️ Bão Cát Sinh Tồn – Cướp Không Gớ Tay 🏆</p>
         </div>
       </div>

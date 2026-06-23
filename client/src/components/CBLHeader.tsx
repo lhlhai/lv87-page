@@ -19,7 +19,7 @@ export default function CBLHeader() {
         <div className="header-logo">
           <div className="logo-icon">⚔️</div>
           <div>
-            <h1 className="alliance-name">Crown Born Legend</h1>
+            <h1 className="alliance-name">Crown Born Legend - #1732</h1>
             <p className="alliance-code">cBL</p>
           </div>
         </div>

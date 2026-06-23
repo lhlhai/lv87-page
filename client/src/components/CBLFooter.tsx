@@ -10,20 +10,11 @@ export default function CBLFooter() {
       <div className="footer-content">
         <div className="footer-main">
           <div className="footer-info">
-            <h3 className="footer-title">Crown Born Legend</h3>
+            <h3 className="footer-title">Crown Born Legend - #1732</h3>
             <p className="footer-code">cBL - Liên Minh Chiến Tranh Sinh Tồn</p>
           </div>
 
-          <div className="footer-links">
-            <a href="https://discord.gg/example" target="_blank" rel="noopener noreferrer" className="social-link">
-              <span className="social-icon">💬</span>
-              Discord
-            </a>
-            <a href="https://t.me/example" target="_blank" rel="noopener noreferrer" className="social-link">
-              <span className="social-icon">📱</span>
-              Telegram
-            </a>
-          </div>
+
         </div>
 
         <div className="footer-divider"></div>
