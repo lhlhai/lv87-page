@@ -1,0 +1,146 @@
+.cbl-shiny-tasks {
+  width: 100%;
+  padding: 3rem 1rem;
+  background: linear-gradient(135deg, rgba(10, 15, 28, 0.95) 0%, rgba(15, 26, 47, 0.95) 100%);
+  border-top: 2px solid rgba(240, 185, 11, 0.3);
+  border-bottom: 2px solid rgba(240, 185, 11, 0.3);
+}
+
+.shiny-tasks-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.shiny-tasks-title {
+  font-size: clamp(1.8rem, 5vw, 2.5rem);
+  font-weight: 900;
+  color: #f0b90b;
+  text-align: center;
+  margin: 0 0 2rem 0;
+  text-shadow: 0 0 20px rgba(240, 185, 11, 0.5);
+  letter-spacing: 2px;
+}
+
+/* Day buttons */
+.shiny-tasks-days {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  overflow-x: auto;
+  padding: 0.5rem 0;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.day-button {
+  padding: 0.75rem 1.5rem;
+  background: rgba(30, 40, 60, 0.8);
+  color: #e0e0e0;
+  border: 2px solid rgba(240, 185, 11, 0.3);
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.day-button:hover {
+  border-color: #f0b90b;
+  color: #f0b90b;
+  background: rgba(30, 40, 60, 1);
+}
+
+.day-button.active {
+  background: rgba(240, 185, 11, 0.1);
+  border-color: #f0b90b;
+  color: #f0b90b;
+  box-shadow: 0 0 15px rgba(240, 185, 11, 0.4), inset 0 0 10px rgba(240, 185, 11, 0.1);
+}
+
+/* Servers display */
+.shiny-tasks-servers {
+  margin-top: 2rem;
+}
+
+.servers-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.server-badge {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: rgba(20, 30, 50, 0.9);
+  color: #f0b90b;
+  border: 1px solid #f0b90b;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  box-shadow: 0 0 10px rgba(240, 185, 11, 0.2);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .cbl-shiny-tasks {
+    padding: 2rem 1rem;
+  }
+
+  .shiny-tasks-title {
+    margin-bottom: 1.5rem;
+  }
+
+  .shiny-tasks-days {
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .day-button {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
+
+  .servers-list {
+    gap: 0.75rem;
+  }
+
+  .server-badge {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cbl-shiny-tasks {
+    padding: 1.5rem 0.75rem;
+  }
+
+  .shiny-tasks-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .shiny-tasks-days {
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .day-button {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+  }
+
+  .servers-list {
+    gap: 0.5rem;
+  }
+
+  .server-badge {
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+  }
+}

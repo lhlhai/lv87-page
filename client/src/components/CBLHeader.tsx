@@ -29,11 +29,11 @@ export default function CBLHeader() {
           <button onClick={() => scrollToSection('rules')} className="menu-link">
             Nội quy
           </button>
-          <button onClick={() => scrollToSection('teams')} className="menu-link">
-            Đội hình
+          <button onClick={() => scrollToSection('desert-storm')} className="menu-link">
+            Desert Storm
           </button>
-          <button onClick={() => scrollToSection('missions')} className="menu-link">
-            Lịch
+          <button onClick={() => scrollToSection('shiny-tasks')} className="menu-link">
+            Shiny Tasks
           </button>
           <button onClick={() => scrollToSection('gallery')} className="menu-link">
             Ảnh
@@ -58,11 +58,11 @@ export default function CBLHeader() {
           <button onClick={() => scrollToSection('rules')} className="mobile-menu-link">
             Nội quy
           </button>
-          <button onClick={() => scrollToSection('teams')} className="mobile-menu-link">
-            Đội hình
+          <button onClick={() => scrollToSection('desert-storm')} className="mobile-menu-link">
+            Desert Storm
           </button>
-          <button onClick={() => scrollToSection('missions')} className="mobile-menu-link">
-            Lịch
+          <button onClick={() => scrollToSection('shiny-tasks')} className="mobile-menu-link">
+            Shiny Tasks
           </button>
           <button onClick={() => scrollToSection('gallery')} className="mobile-menu-link">
             Ảnh

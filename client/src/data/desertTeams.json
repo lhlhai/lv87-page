@@ -1,0 +1,26 @@
+{
+  "teamA": {
+    "name": "Đội A",
+    "time": "Thứ Sáu 18:00",
+    "official": [
+      { "name": "Player1", "star": true },
+      { "name": "Player2", "star": false },
+      { "name": "Player3", "star": false }
+    ],
+    "backup": [
+      { "name": "PlayerA", "priority": 1 },
+      { "name": "PlayerB", "priority": 2 }
+    ]
+  },
+  "teamB": {
+    "name": "Đội B",
+    "time": "Thứ Bảy 08:00",
+    "official": [
+      { "name": "PlayerX", "star": true },
+      { "name": "PlayerY", "star": false }
+    ],
+    "backup": [
+      { "name": "PlayerM", "priority": 1 }
+    ]
+  }
+}

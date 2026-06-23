@@ -1,0 +1,9 @@
+[
+  { "dayOfWeek": "Monday", "label": "Thứ Hai", "servers": ["1710", "1715", "1720"] },
+  { "dayOfWeek": "Tuesday", "label": "Thứ Ba", "servers": ["1730", "1745", "1760"] },
+  { "dayOfWeek": "Wednesday", "label": "Thứ Tư", "servers": ["1705", "1750", "1770"] },
+  { "dayOfWeek": "Thursday", "label": "Thứ Năm", "servers": ["1712", "1733", "1765"] },
+  { "dayOfWeek": "Friday", "label": "Thứ Sáu", "servers": ["1725", "1740", "1755"] },
+  { "dayOfWeek": "Saturday", "label": "Thứ Bảy", "servers": ["1718", "1738", "1768"] },
+  { "dayOfWeek": "Sunday", "label": "Chủ Nhật", "servers": ["1701", "1777"] }
+]

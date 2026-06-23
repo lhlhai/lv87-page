@@ -1,8 +1,8 @@
 import CBLHeader from '@/components/CBLHeader';
 import CBLHero from '@/components/CBLHero';
 import CBLRulesAndTips from '@/components/CBLRulesAndTips';
-import CBLTeamSection from '@/components/CBLTeamSection';
-import CBLMissionSchedule from '@/components/CBLMissionSchedule';
+import CBLDesertStorm from '@/components/CBLDesertStorm';
+import CBLShinyTasks from '@/components/CBLShinyTasks';
 import CBLGallery from '@/components/CBLGallery';
 import CBLFooter from '@/components/CBLFooter';
 import './Home.css';
@@ -20,8 +20,8 @@ export default function Home() {
       <main className="cbl-main">
         <CBLHero />
         <CBLRulesAndTips />
-        <CBLTeamSection />
-        <CBLMissionSchedule />
+        <CBLDesertStorm />
+        <CBLShinyTasks />
         <CBLGallery />
       </main>
       <CBLFooter />
