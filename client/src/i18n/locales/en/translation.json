@@ -83,5 +83,17 @@
     "last_updated": "Last updated",
     "guide": "Design Consultation",
     "built_with": "Want this website? Contact us for support ❤️"
+  },
+  "shiny_tasks": {
+    "title": "Shiny Tasks",
+    "server_details": "Server Details",
+    "server_id": "Server ID",
+    "season": "Season",
+    "week": "Week",
+    "post_season": "Post-season",
+    "region": "Region",
+    "updated_at": "Updated at",
+    "close": "Close",
+    "day": "Day"
   }
 }

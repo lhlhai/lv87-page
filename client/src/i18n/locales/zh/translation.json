@@ -83,5 +83,17 @@
     "last_updated": "最后更新",
     "guide": "设计咨询",
     "built_with": "想要这个网站吗？联系我们获取支持 ❤️"
+  },
+  "shiny_tasks": {
+    "title": "閃耀任務",
+    "server_details": "伺服器詳情",
+    "server_id": "伺服器 ID",
+    "season": "賽季",
+    "week": "週",
+    "post_season": "後賽季",
+    "region": "地區",
+    "updated_at": "更新時間",
+    "close": "關閉",
+    "day": "Day"
   }
 }

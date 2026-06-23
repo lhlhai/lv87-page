@@ -83,5 +83,17 @@
     "last_updated": "Cập nhật lần cuối",
     "guide": "Tư vấn thiết kế",
     "built_with": "Bạn muốn sở hữu website này? Liên hệ ngay để được hỗ trợ ❤️"
+  },
+  "shiny_tasks": {
+    "title": "Nhiệm vụ lấp lánh",
+    "server_details": "Chi tiết máy chủ",
+    "server_id": "ID Máy chủ",
+    "season": "Mùa giải",
+    "week": "Tuần",
+    "post_season": "Hậu mùa giải",
+    "region": "Khu vực",
+    "updated_at": "Cập nhật lúc",
+    "close": "Đóng",
+    "day": "Ngày"
   }
 }
