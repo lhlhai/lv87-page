@@ -43,77 +43,77 @@
 }
 
 :root {
-  /* Cyberpunk Theme Colors */
-  --primary: #f5c842; /* Gold */
-  --primary-foreground: #0a0e17;
-  --sidebar-primary: #38bdf8; /* Cyan */
-  --sidebar-primary-foreground: #0a0e17;
-  --chart-1: #f5c842;
-  --chart-2: #38bdf8;
-  --chart-3: #f5c842;
-  --chart-4: #38bdf8;
-  --chart-5: #f5c842;
+  /* Crown Born Legend (cBL) Theme Colors */
+  --primary: #f0b90b; /* Gold */
+  --primary-foreground: #0a0f1c;
+  --sidebar-primary: #e74c3c; /* Red */
+  --sidebar-primary-foreground: #0a0f1c;
+  --chart-1: #f0b90b;
+  --chart-2: #e74c3c;
+  --chart-3: #f0b90b;
+  --chart-4: #e74c3c;
+  --chart-5: #f0b90b;
   --radius: 0.5rem;
-  /* Dark Cyberpunk Background */
-  --background: #0a0e17;
-  --foreground: #e8e8e8;
-  --card: #111827;
-  --card-foreground: #e8e8e8;
-  --popover: #111827;
-  --popover-foreground: #e8e8e8;
-  --secondary: #1f2937;
+  /* Dark Background - cBL Theme */
+  --background: #0a0f1c;
+  --foreground: #e0e0e0;
+  --card: #0f1428;
+  --card-foreground: #e0e0e0;
+  --popover: #0f1428;
+  --popover-foreground: #e0e0e0;
+  --secondary: #1a1f2e;
   --secondary-foreground: #a0a0a0;
-  --muted: #374151;
+  --muted: #2a3040;
   --muted-foreground: #9ca3af;
-  --accent: #f5c842;
-  --accent-foreground: #0a0e17;
-  --destructive: #ef4444;
+  --accent: #f0b90b;
+  --accent-foreground: #0a0f1c;
+  --destructive: #e74c3c;
   --destructive-foreground: #fafafa;
-  --border: #38bdf8;
-  --input: #1f2937;
-  --ring: #f5c842;
-  --sidebar: #111827;
-  --sidebar-foreground: #e8e8e8;
-  --sidebar-accent: #f5c842;
-  --sidebar-accent-foreground: #0a0e17;
-  --sidebar-border: #38bdf8;
-  --sidebar-ring: #f5c842;
+  --border: #f0b90b;
+  --input: #1a1f2e;
+  --ring: #f0b90b;
+  --sidebar: #0f1428;
+  --sidebar-foreground: #e0e0e0;
+  --sidebar-accent: #f0b90b;
+  --sidebar-accent-foreground: #0a0f1c;
+  --sidebar-border: #e74c3c;
+  --sidebar-ring: #f0b90b;
 }
 
 .dark {
-  /* Dark mode uses same cyberpunk colors */
-  --primary: #f5c842;
-  --primary-foreground: #0a0e17;
-  --sidebar-primary: #38bdf8;
-  --sidebar-primary-foreground: #0a0e17;
-  --background: #0a0e17;
-  --foreground: #e8e8e8;
-  --card: #111827;
-  --card-foreground: #e8e8e8;
-  --popover: #111827;
-  --popover-foreground: #e8e8e8;
-  --secondary: #1f2937;
+  /* Dark mode uses cBL colors */
+  --primary: #f0b90b;
+  --primary-foreground: #0a0f1c;
+  --sidebar-primary: #e74c3c;
+  --sidebar-primary-foreground: #0a0f1c;
+  --background: #0a0f1c;
+  --foreground: #e0e0e0;
+  --card: #0f1428;
+  --card-foreground: #e0e0e0;
+  --popover: #0f1428;
+  --popover-foreground: #e0e0e0;
+  --secondary: #1a1f2e;
   --secondary-foreground: #a0a0a0;
-  --muted: #374151;
+  --muted: #2a3040;
   --muted-foreground: #9ca3af;
-  --accent: #f5c842;
-  --accent-foreground: #0a0e17;
-  --destructive: #ef4444;
+  --accent: #f0b90b;
+  --accent-foreground: #0a0f1c;
+  --destructive: #e74c3c;
   --destructive-foreground: #fafafa;
-  --border: #38bdf8;
-  --input: #1f2937;
-  --ring: #f5c842;
-  --chart-1: #f5c842;
-  --chart-2: #38bdf8;
-  --chart-3: #f5c842;
-  --chart-4: #38bdf8;
-  --chart-5: #f5c842;
-  --sidebar: #111827;
-  --sidebar-foreground: #e8e8e8;
-  --sidebar-accent: #f5c842;
-  --sidebar-accent-foreground: #0a0e17;
-  --sidebar-border: #38bdf8;
-  --sidebar-ring: #f5c842;
+  --border: #f0b90b;
+  --input: #1a1f2e;
+  --ring: #f0b90b;
+  --chart-1: #f0b90b;
+  --chart-2: #e74c3c;
+  --chart-3: #f0b90b;
+  --chart-4: #e74c3c;
+  --chart-5: #f0b90b;
+  --sidebar: #0f1428;
+  --sidebar-foreground: #e0e0e0;
+  --sidebar-accent: #f0b90b;
+  --sidebar-accent-foreground: #0a0f1c;
+  --sidebar-border: #e74c3c;
+  --sidebar-ring: #f0b90b;
 }
 
 @layer base {

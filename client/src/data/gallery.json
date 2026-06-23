@@ -1,0 +1,60 @@
+{
+  "gallery": [
+    {
+      "id": 1,
+      "title": "Chiến thắng Desert Storm",
+      "caption": "Liên minh cBL chiến thắng sự kiện Desert Storm lần thứ 5",
+      "image": "https://images.unsplash.com/photo-1538481143235-c8f91519e161?w=600&h=400&fit=crop",
+      "category": "event"
+    },
+    {
+      "id": 2,
+      "title": "Đội hình mạnh nhất",
+      "caption": "Đội hình cân bằng với HP cao và DPS tốt",
+      "image": "https://images.unsplash.com/photo-1535655519581-a0ff0f5b38d8?w=600&h=400&fit=crop",
+      "category": "strategy"
+    },
+    {
+      "id": 3,
+      "title": "Thành viên tích cực",
+      "caption": "Top 5 thành viên có đóng góp lớn nhất",
+      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop",
+      "category": "members"
+    },
+    {
+      "id": 4,
+      "title": "Cướp tài nguyên thành công",
+      "caption": "Khoảnh khắc cướp được 1 triệu vàng",
+      "image": "https://images.unsplash.com/photo-1611339555312-e607c90352fd?w=600&h=400&fit=crop",
+      "category": "raid"
+    },
+    {
+      "id": 5,
+      "title": "Boss Raid đầu tiên",
+      "caption": "Liên minh cBL tham gia Boss Raid lần đầu",
+      "image": "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=600&h=400&fit=crop",
+      "category": "event"
+    },
+    {
+      "id": 6,
+      "title": "Khoảnh khắc hài hước",
+      "caption": "Thành viên bị troll bởi AI trong game",
+      "image": "https://images.unsplash.com/photo-1516534775068-bb6c4e10b3d2?w=600&h=400&fit=crop",
+      "category": "funny"
+    },
+    {
+      "id": 7,
+      "title": "Nâng cấp base hoàn thành",
+      "caption": "Base level 20 - sẵn sàng cho chiến dịch tiếp theo",
+      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop",
+      "category": "milestone"
+    },
+    {
+      "id": 8,
+      "title": "Liên minh hội tụ",
+      "caption": "Toàn bộ thành viên cBL tập trung cho sự kiện",
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop",
+      "category": "members"
+    }
+  ]
+}

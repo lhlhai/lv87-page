@@ -1,0 +1,34 @@
+{
+  "tips": [
+    {
+      "id": 1,
+      "title": "Cách build đội hình Desert Storm",
+      "content": "Ưu tiên các unit có HP cao và khả năng AOE. Kết hợp Ranger + Soldier + Gunner để tối ưu DPS. Đặt Tank ở phía trước, Damage dealer ở sau."
+    },
+    {
+      "id": 2,
+      "title": "Farm linh kiện nhanh",
+      "content": "Chạy các stage 15-20 để có tỷ lệ drop cao. Dùng Auto Battle để tiết kiệm thời gian. Mở rộng kho để chứa nhiều linh kiện hơn."
+    },
+    {
+      "id": 3,
+      "title": "Chiến thuật cướp tài nguyên",
+      "content": "Tấn công các base yếu hơn mình 20-30% để có tỷ lệ thắng cao. Kiểm tra thời gian trực tuyến của đối thủ trước khi tấn công."
+    },
+    {
+      "id": 4,
+      "title": "Nâng cấp hiệu quả",
+      "content": "Ưu tiên nâng cấp các unit chính trước. Dùng EXP Potion vào lúc có buff 2x. Tập trung vào 3-4 unit mạnh thay vì nâng đều."
+    },
+    {
+      "id": 5,
+      "title": "Quản lý tài nguyên",
+      "content": "Không để tài nguyên quá nhiều để tránh bị cướp. Nâng cấp kho thường xuyên. Dùng tài nguyên để nâng cấp base khi sắp full."
+    },
+    {
+      "id": 6,
+      "title": "Tham gia sự kiện hiệu quả",
+      "content": "Hoàn thành tất cả daily quest để có reward. Tham gia Boss Raid cùng liên minh. Lưu ý thời gian reset của các sự kiện."
+    }
+  ]
+}

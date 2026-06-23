@@ -1,0 +1,123 @@
+{
+  "missionCycle": {
+    "Monday": {
+      "day": "Thứ Hai",
+      "targets": [
+        {
+          "id": 1,
+          "server": "Cát Vàng - Server 1",
+          "time": "14:00",
+          "icon": "🎯"
+        },
+        {
+          "id": 2,
+          "server": "Cát Vàng - Server 2",
+          "time": "15:30",
+          "icon": "🎯"
+        }
+      ]
+    },
+    "Tuesday": {
+      "day": "Thứ Ba",
+      "targets": [
+        {
+          "id": 1,
+          "server": "Bão Xanh - Server 1",
+          "time": "14:00",
+          "icon": "💨"
+        },
+        {
+          "id": 2,
+          "server": "Bão Xanh - Server 3",
+          "time": "16:00",
+          "icon": "💨"
+        }
+      ]
+    },
+    "Wednesday": {
+      "day": "Thứ Tư",
+      "targets": [
+        {
+          "id": 1,
+          "server": "Lửa Đỏ - Server 1",
+          "time": "15:00",
+          "icon": "🔥"
+        },
+        {
+          "id": 2,
+          "server": "Lửa Đỏ - Server 2",
+          "time": "17:00",
+          "icon": "🔥"
+        }
+      ]
+    },
+    "Thursday": {
+      "day": "Thứ Năm",
+      "targets": [
+        {
+          "id": 1,
+          "server": "Tím Bí Ẩn - Server 1",
+          "time": "13:00",
+          "icon": "👁️"
+        },
+        {
+          "id": 2,
+          "server": "Tím Bí Ẩn - Server 2",
+          "time": "15:00",
+          "icon": "👁️"
+        }
+      ]
+    },
+    "Friday": {
+      "day": "Thứ Sáu",
+      "targets": [
+        {
+          "id": 1,
+          "server": "Cát Vàng - Server 3",
+          "time": "14:00",
+          "icon": "🎯"
+        },
+        {
+          "id": 2,
+          "server": "Bão Xanh - Server 2",
+          "time": "16:00",
+          "icon": "💨"
+        }
+      ]
+    },
+    "Saturday": {
+      "day": "Thứ Bảy",
+      "targets": [
+        {
+          "id": 1,
+          "server": "Boss Raid - Phía Tây",
+          "time": "18:00",
+          "icon": "👹"
+        },
+        {
+          "id": 2,
+          "server": "Boss Raid - Phía Đông",
+          "time": "20:00",
+          "icon": "👹"
+        }
+      ]
+    },
+    "Sunday": {
+      "day": "Chủ Nhật",
+      "targets": [
+        {
+          "id": 1,
+          "server": "Sự kiện đặc biệt",
+          "time": "19:00",
+          "icon": "⭐"
+        },
+        {
+          "id": 2,
+          "server": "Chuẩn bị cho tuần mới",
+          "time": "21:00",
+          "icon": "🛡️"
+        }
+      ]
+    }
+  }
+}

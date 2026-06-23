@@ -1,0 +1,57 @@
+{
+  "teams": [
+    {
+      "id": 1,
+      "name": "Đội Cát Vàng",
+      "color": "#f0b90b",
+      "members": [
+        "Phượng_Lửa",
+        "Chiến_Binh_Cát",
+        "Cát_Vàng_01",
+        "Cát_Vàng_02"
+      ],
+      "mainTask": "Tấn công Base Phía Tây",
+      "timeFrame": "14:00 - 16:00 GMT+7"
+    },
+    {
+      "id": 2,
+      "name": "Đội Bão Xanh",
+      "color": "#38bdf8",
+      "members": [
+        "Bão_Xanh_Leader",
+        "Xanh_01",
+        "Xanh_02",
+        "Xanh_03"
+      ],
+      "mainTask": "Phòng thủ Base Trung Tâm",
+      "timeFrame": "15:00 - 17:00 GMT+7"
+    },
+    {
+      "id": 3,
+      "name": "Đội Lửa Đỏ",
+      "color": "#e74c3c",
+      "members": [
+        "Lửa_Đỏ_Boss",
+        "Đỏ_01",
+        "Đỏ_02",
+        "Đỏ_03",
+        "Đỏ_04"
+      ],
+      "mainTask": "Tấn công Boss Phía Đông",
+      "timeFrame": "16:00 - 18:00 GMT+7"
+    },
+    {
+      "id": 4,
+      "name": "Đội Tím Bí Ẩn",
+      "color": "#a855f7",
+      "members": [
+        "Tím_Leader",
+        "Tím_Spy_01",
+        "Tím_Spy_02",
+        "Tím_Spy_03"
+      ],
+      "mainTask": "Trinh sát & Hỗ trợ",
+      "timeFrame": "13:00 - 15:00 GMT+7"
+    }
+  ]
+}

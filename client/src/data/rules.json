@@ -1,0 +1,40 @@
+{
+  "rules": [
+    {
+      "id": 1,
+      "icon": "⚔️",
+      "title": "Tôn trọng thành viên",
+      "description": "Không chỉ trích, không gây hấn với các thành viên khác"
+    },
+    {
+      "id": 2,
+      "icon": "🎯",
+      "title": "Tuân thủ chiến lược",
+      "description": "Thực hiện đúng các chiến lược được lãnh đạo đề ra"
+    },
+    {
+      "id": 3,
+      "icon": "💬",
+      "title": "Giao tiếp tích cực",
+      "description": "Luôn cập nhật thông tin, báo cáo tiến độ nhiệm vụ"
+    },
+    {
+      "id": 4,
+      "icon": "🏆",
+      "title": "Đóng góp cho liên minh",
+      "description": "Tham gia sự kiện, giúp đỡ thành viên yếu hơn"
+    },
+    {
+      "id": 5,
+      "icon": "🚫",
+      "title": "Không spam, không scam",
+      "description": "Không chia sẻ link lạ, không lừa đảo"
+    },
+    {
+      "id": 6,
+      "icon": "⏰",
+      "title": "Hoạt động thường xuyên",
+      "description": "Chơi ít nhất 3-4 lần mỗi tuần để giữ slot"
+    }
+  ]
+}

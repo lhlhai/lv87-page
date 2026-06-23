@@ -1,0 +1,205 @@
+.cbl-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: linear-gradient(to bottom, #0a0f1c 0%, #0a0f1c 95%, rgba(10, 15, 28, 0.8) 100%);
+  border-bottom: 2px solid #f0b90b;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 12px rgba(240, 185, 11, 0.1);
+}
+
+.header-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.header-logo:hover {
+  transform: scale(1.05);
+}
+
+.logo-icon {
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alliance-name {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #f0b90b;
+  text-shadow: 0 0 10px rgba(240, 185, 11, 0.5);
+  letter-spacing: 1px;
+}
+
+.alliance-code {
+  margin: 0;
+  font-size: 0.75rem;
+  color: #e74c3c;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* Desktop Menu */
+.desktop-menu {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.menu-link {
+  background: none;
+  border: none;
+  color: #e0e0e0;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.menu-link::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #f0b90b;
+  transition: width 0.3s ease;
+}
+
+.menu-link:hover {
+  color: #f0b90b;
+  text-shadow: 0 0 8px rgba(240, 185, 11, 0.5);
+}
+
+.menu-link:hover::after {
+  width: 100%;
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  background: none;
+  border: none;
+  cursor: pointer;
+  gap: 0.4rem;
+  padding: 0.5rem;
+}
+
+.hamburger span {
+  width: 24px;
+  height: 2px;
+  background: #f0b90b;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.hamburger:hover span {
+  box-shadow: 0 0 8px rgba(240, 185, 11, 0.5);
+}
+
+/* Mobile Menu Dialog */
+.mobile-menu-dialog {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  right: 0;
+  bottom: auto;
+  width: 100%;
+  background: #0a0f1c;
+  border: none;
+  border-bottom: 2px solid #f0b90b;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  box-shadow: 0 4px 12px rgba(240, 185, 11, 0.2);
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.mobile-menu-link {
+  background: rgba(240, 185, 11, 0.1);
+  border: 1px solid #f0b90b;
+  color: #f0b90b;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.mobile-menu-link:active {
+  background: #f0b90b;
+  color: #0a0f1c;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .header-container {
+    padding: 1rem;
+  }
+
+  .alliance-name {
+    font-size: 1.2rem;
+  }
+
+  .alliance-code {
+    font-size: 0.65rem;
+  }
+
+  .desktop-menu {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-logo {
+    gap: 0.5rem;
+  }
+
+  .logo-icon {
+    font-size: 2rem;
+  }
+
+  .alliance-name {
+    font-size: 1rem;
+  }
+
+  .alliance-code {
+    font-size: 0.6rem;
+  }
+}

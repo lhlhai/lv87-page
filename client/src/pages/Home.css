@@ -1,0 +1,112 @@
+.cbl-home {
+  min-height: 100vh;
+  background: #0a0f1c;
+  color: #e0e0e0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cbl-main {
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+}
+
+/* Smooth scroll behavior for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Remove default margins and paddings */
+* {
+  box-sizing: border-box;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0f1c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f0b90b;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #e8a800;
+  box-shadow: 0 0 10px rgba(240, 185, 11, 0.3);
+}
+
+/* Selection styling */
+::selection {
+  background: #f0b90b;
+  color: #0a0f1c;
+}
+
+::-moz-selection {
+  background: #f0b90b;
+  color: #0a0f1c;
+}
+
+/* Focus styling for accessibility */
+:focus-visible {
+  outline: 2px solid #f0b90b;
+  outline-offset: 2px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .cbl-home {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cbl-home {
+    font-size: 13px;
+  }
+}
+
+/* Animation utilities */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(240, 185, 11, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(240, 185, 11, 0.6);
+  }
+}
+
+/* Print styles */
+@media print {
+  .cbl-home {
+    background: white;
+    color: black;
+  }
+}

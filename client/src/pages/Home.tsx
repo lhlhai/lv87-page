@@ -1,31 +1,30 @@
-import Navbar from '@/components/Navbar';
-import Hero from '@/components/Hero';
-import Stats from '@/components/Stats';
-import Rules from '@/components/Rules';
-import DSBAccordion from '@/components/DSBAccordion';
-import TeamSection from '@/components/TeamSection';
-import BannedList from '@/components/BannedList';
-import Footer from '@/components/Footer';
+import CBLHeader from '@/components/CBLHeader';
+import CBLHero from '@/components/CBLHero';
+import CBLRulesAndTips from '@/components/CBLRulesAndTips';
+import CBLTeamSection from '@/components/CBLTeamSection';
+import CBLMissionSchedule from '@/components/CBLMissionSchedule';
+import CBLGallery from '@/components/CBLGallery';
+import CBLFooter from '@/components/CBLFooter';
+import './Home.css';
 
 /**
- * LV87 VIE Alliance Landing Page
- * Design: Neon Cyberpunk Fortress
- * Colors: Dark (#0a0e17) + Gold (#f5c842) + Cyan (#38bdf8)
- * Fonts: Orbitron (headings) + Rajdhani (body)
+ * Crown Born Legend (cBL) Alliance Landing Page
+ * Game: Last War: Survival
+ * Design: Dark theme + Gold/Red accents
+ * Colors: #0a0f1c (dark), #f0b90b (gold), #e74c3c (red)
  */
 export default function Home() {
   return (
-    <div className="min-h-screen bg-background text-foreground">
-      <Navbar />
-      <main className="pt-16 md:pt-20">
-        <Hero />
-        <Stats />
-        <Rules />
-        <DSBAccordion />
-        <TeamSection />
-        <BannedList />
+    <div className="cbl-home">
+      <CBLHeader />
+      <main className="cbl-main">
+        <CBLHero />
+        <CBLRulesAndTips />
+        <CBLTeamSection />
+        <CBLMissionSchedule />
+        <CBLGallery />
       </main>
-      <Footer />
+      <CBLFooter />
     </div>
   );
 }
