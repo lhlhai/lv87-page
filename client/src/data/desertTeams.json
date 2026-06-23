@@ -3,24 +3,76 @@
     "name": "Đội A",
     "time": "Thứ Sáu 18:00",
     "official": [
-      { "name": "Player1", "star": true },
+      { "name": "Captain1", "star": true },
+      { "name": "Leader1", "star": true },
+      { "name": "R4_Member1", "star": true },
+      { "name": "Player1", "star": false },
       { "name": "Player2", "star": false },
-      { "name": "Player3", "star": false }
+      { "name": "Player3", "star": false },
+      { "name": "Player4", "star": false },
+      { "name": "Player5", "star": false },
+      { "name": "Player6", "star": false },
+      { "name": "Player7", "star": false },
+      { "name": "Player8", "star": false },
+      { "name": "Player9", "star": false },
+      { "name": "Player10", "star": false },
+      { "name": "Player11", "star": false },
+      { "name": "Player12", "star": false },
+      { "name": "Player13", "star": false },
+      { "name": "Player14", "star": false },
+      { "name": "Player15", "star": false },
+      { "name": "Player16", "star": false },
+      { "name": "Player17", "star": false }
     ],
     "backup": [
-      { "name": "PlayerA", "priority": 1 },
-      { "name": "PlayerB", "priority": 2 }
+      { "name": "SubA1", "priority": 1 },
+      { "name": "SubA2", "priority": 2 },
+      { "name": "SubA3", "priority": 3 },
+      { "name": "SubA4", "priority": 4 },
+      { "name": "SubA5", "priority": 5 },
+      { "name": "SubA6", "priority": 6 },
+      { "name": "SubA7", "priority": 7 },
+      { "name": "SubA8", "priority": 8 },
+      { "name": "SubA9", "priority": 9 },
+      { "name": "SubA10", "priority": 10 }
     ]
   },
   "teamB": {
     "name": "Đội B",
     "time": "Thứ Bảy 08:00",
     "official": [
-      { "name": "PlayerX", "star": true },
-      { "name": "PlayerY", "star": false }
+      { "name": "Captain2", "star": true },
+      { "name": "Leader2", "star": true },
+      { "name": "PlayerB1", "star": false },
+      { "name": "PlayerB2", "star": false },
+      { "name": "PlayerB3", "star": false },
+      { "name": "PlayerB4", "star": false },
+      { "name": "PlayerB5", "star": false },
+      { "name": "PlayerB6", "star": false },
+      { "name": "PlayerB7", "star": false },
+      { "name": "PlayerB8", "star": false },
+      { "name": "PlayerB9", "star": false },
+      { "name": "PlayerB10", "star": false },
+      { "name": "PlayerB11", "star": false },
+      { "name": "PlayerB12", "star": false },
+      { "name": "PlayerB13", "star": false },
+      { "name": "PlayerB14", "star": false },
+      { "name": "PlayerB15", "star": false },
+      { "name": "PlayerB16", "star": false },
+      { "name": "PlayerB17", "star": false },
+      { "name": "PlayerB18", "star": false }
     ],
     "backup": [
-      { "name": "PlayerM", "priority": 1 }
+      { "name": "SubB1", "priority": 1 },
+      { "name": "SubB2", "priority": 2 },
+      { "name": "SubB3", "priority": 3 },
+      { "name": "SubB4", "priority": 4 },
+      { "name": "SubB5", "priority": 5 },
+      { "name": "SubB6", "priority": 6 },
+      { "name": "SubB7", "priority": 7 },
+      { "name": "SubB8", "priority": 8 },
+      { "name": "SubB9", "priority": 9 },
+      { "name": "SubB10", "priority": 10 }
     ]
   }
 }
