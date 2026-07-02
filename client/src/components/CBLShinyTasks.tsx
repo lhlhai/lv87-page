@@ -53,7 +53,7 @@ export default function CBLShinyTasks() {
   };
 
   return (
-    <section id="shiny-tasks" className="cbl-shiny-tasks">
+    <section id="shiny" className="cbl-shiny-tasks">
       <div className="shiny-tasks-container">
         <h2 className="shiny-tasks-title">{t('shiny_tasks.title')}</h2>
 

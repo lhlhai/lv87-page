@@ -11,11 +11,12 @@ export default function Navbar({ onNavigate }: NavbarProps) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isLangOpen, setIsLangOpen] = useState(false);
   const { t, i18n } = useTranslation();
-  const sectionIds = ['home', 'rules', 'dsb', 'team', 'banned'];
+  const sectionIds = ['home', 'shiny', 'rules', 'dsb', 'team', 'banned'];
   const activeSection = useScrollSpy(sectionIds, 100);
 
   const navLinks = [
     { label: t('nav.home'), id: 'home' },
+    { label: t('shiny_tasks.title'), id: 'shiny' },
     { label: t('nav.rules'), id: 'rules' },
     { label: t('nav.dsb'), id: 'dsb' },
     { label: t('nav.team'), id: 'team' },
